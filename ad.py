@@ -119,4 +119,4 @@ if __name__ == '__main__':
 	testArr, testLabelArr = loadData('horseColicTest2.txt')
 	prediction10 = adaClassify(testArr,classifierArray)
 	print 1.0*sum(prediction10!=mat(testLabelArr).T)/len(prediction10)
-
+# print
